@@ -3,16 +3,6 @@ variable "aws_region" {
   type = string
 }
 
-variable "namespace" {
-  description = "name of the namespace associate to the s3 bucket example team1, main, poc"
-  type = string
-}
-
-variable "environment" {
-  description = "name of the environment associate to the s3 bucket example development, staging, production"
-  type = string
-}
-
 variable "name" {
   description = "name of the bucket before appending other things"
   type = string
